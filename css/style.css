@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;600;700;900&display=swap');
 
 *,
 *::before,*::after{
@@ -12,15 +12,38 @@ body{
 
 }
 
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+
 .container{
     width: 1200px;
     margin: 0 auto;
 }
 
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    height: 50px;
+    font-weight: 500;
+    background-color: red;
+    min-width: 200px;
+    padding: 0 15px
+}
+
 /* Header start */
 
 .header{
-    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
 }
 
 .header__wrapper{
@@ -55,7 +78,32 @@ body{
 /* Intro start */
 
 .intro{
-    background: url(/img/intro_bg\ \(1\).jpg) ;
+    background: url(/img/intro_bg\ \(1\).jpg) no-repeat;
+    background-size: cover;
 }
+
+.intro__content{
+    height: 750px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.intro__block{
+
+}
+
+.intro__title{
+    max-width: 700px;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    
+}
+
+
 
 /* Intro end */
