@@ -94,7 +94,7 @@ h1,h2,h3,h4,h5,h6{
 /* Intro start */
 
 .intro{
-    background: url(/img/intro_bg\ \(1\).jpg) no-repeat;
+    background: url(/img/intro.jpg) no-repeat;
     background-size: cover;
 }
 
